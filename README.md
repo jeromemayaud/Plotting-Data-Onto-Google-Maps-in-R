@@ -15,3 +15,5 @@ IntersectHexagonMapsWithAccessibility.R --> Combines data (in this case, the acc
 PlottingHexagonMapsOntoGoogleMaps.R --> Plots hexagonal grid onto an underlying Google map of the study area. Requires output from IntersectHexagonMapsWithAccessibility.R file.
 
 PlottingRoutesStopsOntoMaps.R --> Plots the transit lines and transit stops for the study area. Requires a shapefile of the transportation network. Requires output from PlottingHexagonMapsOntoGoogleMaps.R file.
+
+PlottingOriginAccessToFacilitiesOntoGoogleMaps.R --> Plots the accessibility of each grid cell to certain facilities on a Google Map. Requires output from MakingHexagonalMaps.R file. 
